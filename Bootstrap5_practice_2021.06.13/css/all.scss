@@ -1,0 +1,74 @@
+@import "./bootstrap/bootstrap.scss";
+
+*{
+    font-family:'Noto Sans TC', 'Baloo Tamma 2', cursive ,sans-serif;
+}
+
+.BalooTamma2 {
+    font-family: 'Baloo Tamma 2', 'Noto Sans TC',sans-serif;
+    font-weight: bold;
+}
+
+.btnHoverEffect1:hover {
+   background-color:  #FF785E;
+   color: #fff !important;
+}
+
+.btnHoverEffect2:hover {
+    background-color:  #ffdf65;
+    border-color: #ffdf65;
+
+ }
+
+ .btnHoverEffect2:hover #i1 {
+   color: #FF785E !important;
+
+ }
+
+ .btnContactHoverEffect:hover {
+    background-color:  #ffdf65;
+    border-color: #ffdf65;
+    color: gray;
+
+ }
+
+.nav .active {
+     
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107 !important;
+    padding: 16px;
+       
+}
+
+
+
+.accordion-item {
+    box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+    border-radius: 4px;
+
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #ffeb3b;
+    outline: 0;
+    box-shadow: 0px 0px 2px 0.1rem #ffeb3b;
+}
+
+
+.progress-img {
+
+  object-fit: cover;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+
+}
+
+
+
+.product-img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
