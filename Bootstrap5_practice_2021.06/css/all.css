@@ -12396,4 +12396,11 @@ fieldset:disabled .btn {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: none;
+}
 /*# sourceMappingURL=all.css.map */
